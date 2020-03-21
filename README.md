@@ -21,10 +21,14 @@ _(Inspiration: [Exponential growth and epidemics](https://www.youtube.com/watch?
 
 This derivative indicates where we are relative to the inflection point of logistic growth.
 
-* Values > 1 means we are before the inflection point, in the exponential growth phase.
-* Crossing 1 means we have reached the inflection point, and growth is stabilising.
-  This is the half-way mark: case numbers should eventually reach twice the total at this time.
-* Values < 1 means we have passed the inflection point, and growth is slowing down.
+* **Growth factor > 1** means we are before the inflection point, in the exponential growth phase.
+* **Growth factor = 1** means we are crossing inflection point, and growth is stabilising.
+  Ideally, this should be the half-way mark, at roughly half the number of cases that the total will eventually grow to,
+  and half the number of days from the first infection to the peak.
+* **Growth factor < 1** means we have passed the inflection point, and growth is slowing down.
+
+(The data is noisy, so the charts below include several layers of smoothing over multiple days,
+to make the overall trend clearer.)
 
 [![Growth factor SA]][Growth factor SA sheet]
 
