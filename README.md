@@ -2,6 +2,15 @@
 
 (Click on the charts below to view bigger interactive versions, and the underlying data.)
 
+## ⚠️ Disclaimer ⚠️
+
+This is my personal analysis of the COVID-19 pandemic data,
+but I am **not** a medical professional or epidemiologist.
+Do not rely on this analysis for critical decisions.
+
+For reliable information, refer to [NICD](http://www.nicd.ac.za/).
+
+
 ## Cases
 
 The number of confirmed cases over time, broken down by province, in order of first appearance.
