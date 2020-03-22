@@ -45,15 +45,44 @@ to make the overall trend clearer.)
 
 ## Projections
 
-This projects the number of confirmed cases into the future by fitting the curve to the logistic function. 
+We can estimate the progression of the infection over time by fitting a logistic growth curve to the data,
+along with an estimate of the total infected population.
 
+SACEMA and NICD present the following estimates for how many of South Africa's population will become infected:
+
+* **10% infected** is an optimistic estimate, if early mitigation measures are effective.
+* **20% infected** is typical for the seasonal flu (19%).
+* **40% infected** is a more pessimistic estimate, if mitigation is slow or ineffective.
+
+_(Source: [The terrifying coronavirus projections that pushed govt into lockdown][1], News24, 2020-03-19)_
+
+[1]: https://www.news24.com/SouthAfrica/News/exclusive-the-terrifying-coronavirus-projections-that-pushed-government-into-lockdown-action-20200319
+
+We can estimate the number of active cases by assuming an average recovery (or fatality) period,
+and subtracting this from the infected cases.
+Most sources cite **2.5 week** average recovery period, so we'll use that.
 
 [![Projection]][Projection sheet]
 
-[Projection]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1322399407&format=image
-[Projection sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=384217832
+[Projection]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=719594516&format=image
+[Projection sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1060653400
 
-(This only considers confirmed cases: the true number of unconfirmed, unreported, and undetected cases will be higher.)
+This gives us a rough time frame:
+
+* **Inflection point:** End April. This is when the growth rate peaks.
+  We may reach 3–12 million infections at this point.
+
+* **Active case peak:** Early to mid May, at 5–20 million active cases.
+ This is when the recovery (or fatality) rate overtakes the growth rate,
+ and the number of cases begins to go down.
+
+Zooming in on the shorter term:
+
+[![Projection zoomed]][Projection zoomed sheet]
+
+[Projection zoomed]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1121253821&format=image
+[Projection zoomed sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=649467783
+
 
 ## Related work
 
