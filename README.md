@@ -4,6 +4,8 @@
 
 ## Cases
 
+The number of confirmed cases over time, broken down by province, in order of first appearance.
+
 [![Cases]][Cases sheet]
 
 [Cases]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1959488780&format=image
