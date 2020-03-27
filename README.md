@@ -78,12 +78,12 @@ Most sources cite **2.5 week** average recovery period, so we'll use that.
 [Projection]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=719594516&format=image
 [Projection sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1060653400
 
-As of 26 March 2020, this gives us these reference points:
+As of 27 March 2020, this gives us these reference points:
 
-* **Inflection point:** 27 April – 2 May, with 3–12 million infections.
+* **Inflection point:** 28 April – 3 May, with 3–12 million infections.
   This is when the growth rate peaks, and begins to slow down.
 
-* **Active case peak:** 6–11 May, with 5–19 million active cases.
+* **Active case peak:** 6–12 May, with 5–19 million active cases.
   This is when the recovery (or fatality) rate overtakes the growth rate,
   and the number of cases begins to go down.
 
