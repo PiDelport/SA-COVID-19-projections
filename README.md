@@ -46,6 +46,9 @@ to make the overall trend clearer.)
 [Growth factor SA]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=759993482&format=image
 [Growth factor SA sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1190480589
 
+This is a critical graph to keep an eye on: as long as it stays above 1,
+we are still in the early exponential phase of the infection.
+
 <!-- Hide for now
 [![Growth Factor WC]][Growth Factor WC sheet]
 
