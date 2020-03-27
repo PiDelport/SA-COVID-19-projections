@@ -94,6 +94,21 @@ Zooming in on the shorter term:
 [Projection zoomed]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1121253821&format=image
 [Projection zoomed sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=649467783
 
+## Lockdown period
+
+On 23 March, South Africa declared a 3 week [national lockdown], from 26 March to 16 April 2020.
+
+[national lockdown]: https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_South_Africa#National_lockdown
+
+Projections for this lockdown period, as of 27 Mar 2020 (with cases **confirmed** and _projected_):
+
+| Date   | Lockdown |        Cases        |
+|-------:|----------|:-------------------:|
+| 26 Mar | Week 0   |       **927**       |
+|  2 Apr | Week 1   |   _5,797 –  5,799_  |
+|  9 Apr | Week 2   |  _36,756 – 36,914_  |
+| 16 Apr | Week 3   | _226,681 – 233,308_ |
+
 
 ## Related work
 
