@@ -11,21 +11,6 @@ Do not rely on this analysis for critical decisions.
 For reliable information, refer to [NICD](http://www.nicd.ac.za/).
 
 
-## Cases
-
-The number of confirmed cases over time, broken down by province, in order of first appearance.
-
-[![Cases]][Cases sheet]
-
-[Cases]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1959488780&format=image
-[Cases sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=658827335
-
-[![Case %]][Case % sheet]
-
-[Case %]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=291377335&format=image
-[Case % sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=108384335
-
-
 ## Growth factor
 
 _(Inspiration: [Exponential growth and epidemics](https://www.youtube.com/watch?v=Kas0tIxDvrg), 3Blue1Brown)_
