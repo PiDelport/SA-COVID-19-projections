@@ -66,12 +66,12 @@ Most sources cite **2.5 week** average recovery period, so we'll use that.
 [Projection]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=719594516&format=image
 [Projection sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1060653400
 
-As of 1 April 2020, this gives us these reference points:
+As of 2 April 2020, this gives us these reference points:
 
-* **Inflection point:** 27 – 6 Jun, with 3–12 million infections.
+* **Inflection point:** 2 – 13 Jun, with 3–12 million infections.
   This is when the growth rate peaks, and begins to slow down.
 
-* **Active case peak:** 5 – 15 Jun, with 3–13 million active cases.
+* **Active case peak:** 11 – 22 Jun, with 3–12 million active cases.
   This is when the recovery (or fatality) rate overtakes the growth rate,
   and the number of cases begins to go down.
 
@@ -98,9 +98,9 @@ Projections for this lockdown period, as of 27 Mar 2020 (with cases **confirmed*
 | Date   | Lockdown |       Cases       |
 |-------:|----------|:-----------------:|
 | 26 Mar | Week 0   |      **927**      |
-|  2 Apr | Week 1   |      _1,949_      |
-|  9 Apr | Week 2   |  _5,306 – 5,308_  |
-| 16 Apr | Week 3   | _14,435 – 14,455_ |
+|  2 Apr | Week 1   |     **1,761**     |
+|  9 Apr | Week 2   |  _4,409 – 4,410_  |
+| 16 Apr | Week 3   | _11,030 – 11,041_ |
 
 
 ## Related work
