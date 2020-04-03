@@ -1,21 +1,42 @@
+> **⚠️ Disclaimer:** I am not a medical professional or epidemiologist.
+> Do not rely on this analysis for critical purposes.
+>
+> See the official [NICD] and [SA Coronavirus] websites for reliable information.
+
+[NICD]: http://www.nicd.ac.za/
+[SA Coronavirus]: https://sacoronavirus.co.za/
+
 # South Africa COVID-19 data and projections
 
-(Click on the charts below to view bigger interactive versions, and the underlying data.)
+This is my attempt to analyse public data about the [2020 coronavirus pandemic in South Africa]
+in order to answer two questions:
 
-## ⚠️ Disclaimer ⚠️
+[2020 coronavirus pandemic in South Africa]: https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_South_Africa
 
-This is my personal analysis of the COVID-19 pandemic data,
-but I am **not** a medical professional or epidemiologist.
-Do not rely on this analysis for critical decisions.
+1. Where are we? Is it getting worse or better right now? Can we see light at the end of the tunnel yet?
 
-For reliable information, refer to [NICD](http://www.nicd.ac.za/).
+2. What does the future look like?
 
 
-## Growth factor
+> ℹ️ **Note:** You can click on charts below to see bigger interactive versions on Google Sheets,
+> along with the underlying data and calculations.
 
-_(Inspiration: [Exponential growth and epidemics](https://www.youtube.com/watch?v=Kas0tIxDvrg), 3Blue1Brown)_
 
-This derivative indicates where we are relative to the inflection point of logistic growth.
+## Where are we?
+
+Infections will roughly follow a [logistic growth curve]:
+we can try to determine where we are relative to the curve's inflection point (or midpoint).
+
+[logistic growth curve]: https://calculus.subwiki.org/wiki/Logistic_function
+
+### Growth factor
+
+> 💡️ Video explanation: "[Exponential growth and epidemics]" by 3Blue1Brown
+
+[Exponential growth and epidemics]: https://www.youtube.com/watch?v=Kas0tIxDvrg
+
+The first way to look at this is by visualising the growth factor,
+which is the second derivative (rate of change of rate of change) of the case numbers.
 
 * **Growth factor > 1** means we are before the inflection point, in the exponential growth phase.
 * **Growth factor = 1** means we are crossing inflection point, and growth is stabilising.
@@ -26,20 +47,32 @@ This derivative indicates where we are relative to the inflection point of logis
 (The data is noisy, so the charts below include several layers of smoothing over multiple days,
 to make the overall trend clearer.)
 
-[![Growth factor SA]][Growth factor SA sheet]
+[![Growth factor chart]][Growth factor sheet]
 
-[Growth factor SA]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=759993482&format=image
-[Growth factor SA sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1190480589
+[Growth factor chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=759993482&format=image
+[Growth factor sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1190480589
 
-This is a critical graph to keep an eye on: as long as it stays above 1,
-we are still in the early exponential phase of the infection.
+As long as this graph stays above 1, we are still in the exponential phase of the infection.
 
-<!-- Hide for now
-[![Growth Factor WC]][Growth Factor WC sheet]
 
-[Growth Factor WC]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1440192137&format=image
-[Growth Factor WC sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=473566654
--->
+### Trajectory of cases
+
+> 💡️ Video explanation: "[How To Tell If We're Beating COVID-19]" by MinutePhysics
+
+[How To Tell If We're Beating COVID-19]: https://www.youtube.com/watch?v=54XLXg4fYsc
+
+The second way to look at this is by visualising the trajectory of new cases to total cases.
+This makes the exponential phase linear, and highlights when the curve drops out of it.
+
+[![Trajectory chart]][Trajectory sheet]
+
+[Trajectory chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1380291220&format=image
+[Trajectory sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1534720164
+
+[![Trajectory 2 chart]][Trajectory 2 sheet]
+
+[Trajectory 2 chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1965891821&format=image
+[Trajectory 2 sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1589648313
 
 
 ## Projections
@@ -53,9 +86,9 @@ SACEMA and NICD present the following estimates for how many of South Africa's p
 * **20% infected** is typical for the seasonal flu (19%).
 * **40% infected** is a more pessimistic estimate, if mitigation is slow or ineffective.
 
-_(Source: [The terrifying coronavirus projections that pushed govt into lockdown][1], News24, 2020-03-19)_
-
-[1]: https://www.news24.com/SouthAfrica/News/exclusive-the-terrifying-coronavirus-projections-that-pushed-government-into-lockdown-action-20200319
+> 📰️ Source:
+> "[The terrifying coronavirus projections that pushed govt into lockdown](https://www.news24.com/SouthAfrica/News/exclusive-the-terrifying-coronavirus-projections-that-pushed-government-into-lockdown-action-20200319)",
+> News24, 19 March 2020
 
 We can estimate the number of active cases by assuming an average recovery (or fatality) period,
 and subtracting this from the infected cases.
@@ -87,9 +120,9 @@ Zooming in on the shorter term:
 [Projection next 2 weeks]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=765685532&format=image
 [Projection next 2 weeks sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=2143156717
 
-## Lockdown period
+### Lockdown period
 
-On 23 March, South Africa declared a 3 week [national lockdown], from 26 March to 16 April 2020.
+On 23 March, South Africa declared a 3 week [national lockdown] from 26 March to 16 April 2020.
 
 [national lockdown]: https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_South_Africa#National_lockdown
 
@@ -105,4 +138,17 @@ Projections for this lockdown period, as of 27 Mar 2020 (with cases **confirmed*
 
 ## Related work
 
-* https://github.com/dsfsi/covid19za
+### South Africa
+
+* [Data Repository](https://github.com/dsfsi/covid19za) and
+  [Dashboard](https://bitly.com/covid19za-dash)
+  by the Data Science for Social Impact Research Group @ University of Pretoria
+
+* [Dashboard](https://datastudio.google.com/u/0/reporting/15817068-62f2-4101-8e0f-385e2ddd9326/page/wI9JB)
+  by Wits University, iThemba LABS, and DataConvergence.
+
+* [Dashboard](https://health.hydra.africa/) by The Awareness Company
+
+### International
+
+* [Covid Trends](https://aatishb.com/covidtrends/) by Aatish Bhatia and MinutePhysics
