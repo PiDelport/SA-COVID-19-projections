@@ -1,6 +1,4 @@
 > **⚠️ Disclaimer:** I am not a medical professional or epidemiologist.
-> Do not rely on this analysis for critical purposes.
->
 > See the official [NICD] and [SA Coronavirus] websites for reliable information.
 
 [NICD]: http://www.nicd.ac.za/
@@ -8,26 +6,26 @@
 
 # South Africa COVID-19 data and projections
 
-This is my attempt to analyse public data about the [2020 coronavirus pandemic in South Africa]
-in order to answer two questions:
+This analysis of public data about the [2020 coronavirus pandemic in South Africa] tries to answer two questions:
 
 [2020 coronavirus pandemic in South Africa]: https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_South_Africa
 
-1. Where are we? Is it getting worse or better right now? Can we see light at the end of the tunnel yet?
+1. Where are we now? Is the infection slowing down? Are our efforts working?
 
-2. What does the future look like?
+2. What's ahead? When will the infection peak, and when might it be over?
 
 
 > ℹ️ **Note:** You can click on charts below to see bigger interactive versions on Google Sheets,
 > along with the underlying data and calculations.
 
 
-## Where are we?
+## Where are we now?
 
-Infections will roughly follow a [logistic growth curve]:
-we can try to determine where we are relative to the curve's inflection point (or midpoint).
+We can expect that infections will roughly follow a [logistic growth curve],
+so we can try to visualise where we are relative to that curve's inflection point, or midpoint.
 
 [logistic growth curve]: https://calculus.subwiki.org/wiki/Logistic_function
+
 
 ### Growth factor
 
@@ -35,8 +33,9 @@ we can try to determine where we are relative to the curve's inflection point (o
 
 [Exponential growth and epidemics]: https://www.youtube.com/watch?v=Kas0tIxDvrg
 
-The first way to look at this is by visualising the growth factor,
-which is the second derivative (rate of change of rate of change) of the case numbers.
+The first way to look at this is to visualise the growth factor,
+which is the second derivative (rate of change of rate of change) of the total cases over time,
+or the ratio between new cases each day.
 
 * **Growth factor > 1** means we are before the inflection point, in the exponential growth phase.
 * **Growth factor = 1** means we are crossing inflection point, and growth is stabilising.
@@ -44,15 +43,16 @@ which is the second derivative (rate of change of rate of change) of the case nu
   and half the number of days from the first infection to the peak.
 * **Growth factor < 1** means we have passed the inflection point, and growth is slowing down.
 
-(The data is noisy, so the charts below include several layers of smoothing over multiple days,
-to make the overall trend clearer.)
+The data is noisy, so this chart includes several layers of smoothing over multiple days,
+to make the overall trend clearer:
 
 [![Growth factor chart]][Growth factor sheet]
 
 [Growth factor chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=759993482&format=image
 [Growth factor sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1190480589
 
-As long as this graph stays above 1, we are still in the exponential phase of the infection.
+As of the start of the national lockdown (~27 March), the growth rate is dipping below 1,
+but this is likely a temporary artifact of reporting, rather than a true inflection point.
 
 
 ### Trajectory of cases
@@ -61,21 +61,23 @@ As long as this graph stays above 1, we are still in the exponential phase of th
 
 [How To Tell If We're Beating COVID-19]: https://www.youtube.com/watch?v=54XLXg4fYsc
 
-The second way to look at this is by visualising the trajectory of new cases to total cases.
-This makes the exponential phase linear, and highlights when the curve drops out of it.
+The second way to look at this is to visualise the trajectory of new cases versus total cases.
+This makes the exponential growth phase look linear, and clearly highlights when the curve begins to decelerate.
 
 [![Trajectory chart]][Trajectory sheet]
 
 [Trajectory chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1380291220&format=image
 [Trajectory sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1534720164
 
-[![Trajectory 2 chart]][Trajectory 2 sheet]
+[![Trajectories chart]][Trajectories sheet]
 
-[Trajectory 2 chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1965891821&format=image
-[Trajectory 2 sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1589648313
+[Trajectories chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1965891821&format=image
+[Trajectories sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1589648313
+
+This shows the same temporary (?) dip after the start of the national lockdown.
 
 
-## Projections
+## What's ahead?
 
 We can estimate the progression of the infection over time by fitting a logistic growth curve to the data,
 along with an estimate of the total infected population.
