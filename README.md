@@ -114,14 +114,14 @@ As of 5 April 2020, this gives us these reference points:
 
 Zooming in on the shorter term:
 
-[![Projection current week]][Projection current week sheet]
+[![Projection current week chart]][Projection current week sheet]
 
-[Projection current week]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1121253821&format=image
+[Projection current week chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=1121253821&format=image
 [Projection current week sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=649467783
 
-[![Projection next 2 weeks]][Projection next 2 weeks sheet]
+[![Projection next 2 weeks chart]][Projection next 2 weeks sheet]
 
-[Projection next 2 weeks]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=765685532&format=image
+[Projection next 2 weeks chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=765685532&format=image
 [Projection next 2 weeks sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=2143156717
 
 ### Lockdown period
