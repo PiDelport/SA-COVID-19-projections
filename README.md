@@ -1,4 +1,6 @@
 > **⚠️ Disclaimer:** I am not a medical professional or epidemiologist.
+> This analysis is not necessarily reliable.
+>
 > See the official [NICD] and [SA Coronavirus] websites for reliable information.
 
 [NICD]: http://www.nicd.ac.za/
