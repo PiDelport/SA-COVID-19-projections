@@ -153,6 +153,9 @@ Projections for this lockdown period, as of 27 Mar 2020 (with cases **confirmed*
 
 * [Dashboard](https://health.hydra.africa/) by The Awareness Company
 
+* [Google Sheet](https://docs.google.com/spreadsheets/d/1rAg9M7gEH9vd3H19Ds9NhIaTB6Nrcx6zMIwx9GUIFcw/edit)
+  by Jon Luies
+
 ### International
 
 * [Covid Trends](https://aatishb.com/covidtrends/) by Aatish Bhatia and MinutePhysics
