@@ -98,9 +98,9 @@ We can estimate the number of active cases by assuming an average recovery (or f
 and subtracting this from the infected cases.
 Most sources cite **2.5 week** average recovery period, so we'll use that.
 
-[![Projection]][Projection sheet]
+[![Projection chart]][Projection sheet]
 
-[Projection]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=719594516&format=image
+[Projection chart]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXZDdEQoIMZ6Jvx_5He7SUCUAXAVdi5fcX0kOepif2403AKugwHZRz5PZ65VBzptsDdEyzJmF_k6Ie/pubchart?oid=719594516&format=image
 [Projection sheet]: https://docs.google.com/spreadsheets/d/1zJC06iokpJ65-ZdJCgqCAIgpYpUTwOlpcxI_27wTtn8/edit#gid=1060653400
 
 As of 5 April 2020, this gives us these reference points:
